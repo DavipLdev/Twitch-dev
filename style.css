@@ -5,20 +5,20 @@ body{
     font-family: 'roobert', sans-serif;
 }
 header{
+    max-width: 100%;
     background-color:#9146FF ;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    padding: .3rem;
+    padding: .6rem;
     gap: 5rem;
-    max-width: 100%;
 }
 nav a{
     text-decoration: none;
     color: white;
     font-size: .9em;
     align-items: center;
-   
+   max-width: 100%;
 }
 nav a:hover{
     transition: .5s;
@@ -30,14 +30,16 @@ nav a:hover{
    margin-left: .8rem;
 }
 .btn-login{
-    font-size: .6em;
+    font-size: .7em;
     background-color: #ffffff29;
-    padding: .3rem .9rem;
+    padding: .4rem .9rem;
     border-radius: .3rem;
+    max-width:100%;
 }
 .btn-login a{
     text-decoration: none;
     color: white;
+    max-width:100%;
 }
 .btn-login:hover{
     transition: .3s;
@@ -78,7 +80,7 @@ margin-bottom: 80px;
     background-color: #9146FF;
     text-decoration: none;
     color: white;
-    font-size: .7em;
+    font-size: 1em;
     padding: .5rem .9rem;
     border-radius: .4rem;
 }
@@ -125,6 +127,7 @@ margin-bottom: 80px;
 }
 .text2{
     text-align: center;
+    margin-bottom: 3rem;
 }
 .text2 p{
     font-size: .9em;
@@ -132,7 +135,8 @@ margin-bottom: 80px;
 .hero2{
     display: flex;
     gap: 19px;
-   
+   width: 100%;
+   /* height: 20vh; */
 }
 .filho-heri2{
     border: 1px solid rgba(0, 0, 0, 0.198);
@@ -141,19 +145,19 @@ margin-bottom: 80px;
     width: 90%;
 }
   .filho-heri2 h1{
-    font-size: 2em;
+    font-size: 2.7em;
     margin-block-start: 0.83em;
  margin-block-end: 0.83em;
    margin-bottom: 0;
 }
    .filho-heri2 p{
-    font-size: .9em;
+    font-size: 1em;
     margin-bottom: 20px;
    }
   .filho-heri2:hover{
     transition: .4s;
-    border: 2px solid #9146FF;
-    box-shadow: 5px 8px 10px;
+    /* border: 2px solid #9146FF; */
+    box-shadow: 2px 5px 10px rgb(158, 158, 158);
   }
 
 
@@ -176,11 +180,11 @@ margin-bottom: 80px;
   }
  .text3 h1{
     text-align: center;
-    font-size: 2em;
+    font-size: 2.4em;
  }
   .text3 p{
     text-align: center;
-    font-size: .7em;
+    font-size: .9em;
   }
   .nav-text3{
     text-align: center;
@@ -191,7 +195,7 @@ margin-bottom: 80px;
     text-decoration: none;
     color: black ;
     margin-left: 1.9rem;
-    font-size: .9em;
+    font-size: 1em;
   }
    .nav-text3 :first-of-type{
     color: #9146FF;
@@ -211,10 +215,10 @@ margin-bottom: 80px;
     margin-left: 30px;
    }
    .text4 h2{
-    font-size: 1.2em;
+    font-size: 1.4em;
    }
    .text4 p{
-    font-size: .9em;
+    font-size: 1em;
     line-height: 1.3rem;
    }
    .text4 a{
@@ -222,10 +226,15 @@ margin-bottom: 80px;
     color: white;
     background-color: #9146FF;
     padding: .3rem .7rem;
-    font-size: .7em;
+    font-size: 1em;
     border-radius: .2rem;
    }
+   .text1
 
+   .nav-text3 a:hover{
+        color: #0077ff;
+        background-color: #18181b;
+   }
 
 
 
@@ -284,13 +293,13 @@ margin-bottom: 80px;
    .card{
     border: 1px solid rgba(0, 0, 0, 0.189);
     width: 100%;
-    font-size: .8em;
+    font-size: .9em;
     height: 39vh;
    }
    .card:hover{
     transition: .5s;
-    border: 2px solid #9146FF;
-    box-shadow: 2px 2px 5px;
+    /* border: 1px solid #9146FF; */
+     box-shadow: 2px 7px 10px rgb(179, 179, 179);
    }
    .card p, a {
     margin-bottom: 2rem;
@@ -299,7 +308,7 @@ margin-bottom: 80px;
    .card a{
     text-decoration: none;
     color: black;
-    font-size: .9em;
+    font-size: 1em;
     background-color: #00000023;
     border-radius: .2rem;
     margin-top: 3rem;
@@ -307,6 +316,11 @@ margin-bottom: 80px;
    }
    .card img{
     width: 100%;
+    transition: .3s ease-in-out;
+   }
+   .card img:hover{
+    opacity: .91;
+    transform: scale(101%);
    }
 
 
@@ -358,4 +372,17 @@ margin-bottom: 80px;
    .nav-rodape1 a{
     text-decoration: none;
     color: rgb(146, 146, 146);
+   }
+
+
+
+
+
+/* 
+   ======================================== */
+
+   @media (max-width:1245px) {
+      .btn-login{
+       
+      }
    }
