@@ -8,15 +8,16 @@ header{
     max-width: 100%;
     background-color:#9146FF ;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    padding: .6rem;
-    gap: 5rem;
+    padding: .9rem;
+  
 }
+
 nav a{
     text-decoration: none;
     color: white;
-    font-size: .9em;
+    font-size: 1.1em;
     align-items: center;
    max-width: 100%;
 }
