@@ -59,7 +59,7 @@ nav a:hover{
 
 
 .conteiner1{
-    margin-bottom: 80px;
+    margin-bottom: 8rem;
 }
 .hero1{
     display: grid;
@@ -210,14 +210,17 @@ nav a:hover{
      border-bottom: 2px solid #9146FF;
    }
    .extencao{
-    
     width: 90%;
     margin: auto;
     display: grid;
     grid-template-columns: 60% 25%;
+    align-items: center;
+   }
+   .extencao img{
+    width: 80%;
    }
    .text4{
-    margin-top: 3rem;
+    margin-top: -9rem;
     margin-left: 30px;
    }
    .text4 h2{
@@ -225,6 +228,7 @@ nav a:hover{
    }
    .text4 p{
     font-size: 1em;
+    width: 100%;
     line-height: 1.3rem;
    }
    .text4 a{
