@@ -31,7 +31,7 @@ nav a:hover{
    margin-left: .8rem;
 }
 .btn-login{
-    font-size: .7em;
+    font-size: .9em;
     background-color: #ffffff29;
     padding: .4rem .9rem;
     border-radius: .3rem;
@@ -59,22 +59,27 @@ nav a:hover{
 
 
 .conteiner1{
-margin-bottom: 80px;
+    margin-bottom: 80px;
 }
 .hero1{
     display: grid;
     grid-template-columns:60% 39%;
     align-items: center;
+    width: 90%;
+    margin: auto;
 }
 .text1{
-    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: .9rem;
     margin: auto;
 }
 .text1 h2{
-    font-size: 3.7em;
+    font-size: 3.4em;
     margin-bottom: 0;
 }
 .text1 p{
+    width: 80%;
     font-size: 1.1em;
 }
 .btn a{
